@@ -1,0 +1,18 @@
+#include <iostream>
+
+struct Student {
+  int id;
+  std::string name;
+};
+
+#define PRINT(stu, field) { \
+  std::cout << stu.field << std::endl; \
+}
+
+int main(int argc, char** argcv) {
+  Student stu;
+  std.id = 888;
+  std.name = "amdin";
+  PRINT(stu, field);
+  return 0;
+}

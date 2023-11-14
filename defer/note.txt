@@ -1,0 +1,5 @@
+clang++ -std=c++20 defer.cpp -o defer
+
+gcc -std=c++2a defer.cpp -o defer
+
+https://www.cnblogs.com/colin-vio/p/14988370.html
